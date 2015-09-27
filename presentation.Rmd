@@ -17,11 +17,25 @@ The user could select a home team and an away team and see its ELO ratings compa
 * "D": Draw
 * "H": Away Win
 
-## More about ELO 
+## Example
+
+```{r, echo = FALSE}
+# Load data
+load("data/E0/updated.rda")
+load("data/E0/ranking.rda")
+load("data/E0/teams.rda")
+source("R/ELOgame.R")
+source("R/ELOpredict.R")
+source("R/ELOranking.R")
+source("R/ELOrating.R")
+```
+```{r}
+ELOpredict(ranking, "Arsenal", "Chelsea", draw.prob = 0.2)
+```
+
+## More about ELO and data sources
 
 You could learn more about the World Football Elo Rating System in [ELOratings.net](http://eloratings.net) or in its [Wikipedia page](https://en.wikipedia.org/wiki/World_Football_Elo_Ratings).
-
-## Football data
 
 Results and data from previous matchs was obtained from [football-data.co.uk](football-data.co.uk).
 
