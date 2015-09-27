@@ -1,5 +1,7 @@
 # ELOfootball
 
+Live Demo: https://optrees.shinyapps.io/ELOfootball
+
 This application uses a simple implementation of the World Football Elo Rating System to rank the teams of the Premier League, from season 2000/2001 to 2015/2016, and compute the expectancies for two selected teams in a given match.
 
 The user could select a home team and an away team and see its ELO ratings compared and the computed probabilities for each possible result of a match between them:
