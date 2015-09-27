@@ -1,0 +1,31 @@
+---
+title: "ELOfootball"
+author: "Manuel Fontenla Cadavid"
+date: "28 de septiembre de 2015"
+output: ioslides_presentation
+---
+
+## ELOfootball application
+
+This application uses a simple implementation of the World Football Elo Rating System to rank the teams of the Premier League, from season 2000/2001 to 2015/2016, and compute the expectancies for two selected teams in a given match.
+
+## Predict results
+
+The user could select a home team and an away team and see its ELO ratings compared and the computed probabilities for each possible result of a match between them:
+
+* "H": Home Win
+* "D": Draw
+* "H": Away Win
+
+## More about ELO 
+
+You could learn more about the World Football Elo Rating System in [ELOratings.net](http://eloratings.net) or in its [Wikipedia page](https://en.wikipedia.org/wiki/World_Football_Elo_Ratings).
+
+## Football data
+
+Results and data from previous matchs was obtained from [football-data.co.uk](football-data.co.uk).
+
+## Live Demo
+
+https://optrees.shinyapps.io/ELOfootball
+
